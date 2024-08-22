@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mjc.MoneyConverter.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ac2ef6a944c2703ed8cf8b4928ceed9628fda9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60fef527708588e1be6f80176e754de853f29ab5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mjc.MoneyConverter.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mjc.MoneyConverter.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
