@@ -20,6 +20,7 @@
     <ProjectReference Include="..\mjc.moneyconverter.client\mjc.moneyconverter.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\Mjc.MoneyConverter.Service\Mjc.MoneyConverter.Service.csproj" />
   </ItemGroup>
 
 </Project>

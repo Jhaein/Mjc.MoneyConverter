@@ -1,12 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mjc.MoneyConverter.Service;
 
 namespace Mjc.MoneyConverter.Server.Controllers
 {
-    public class MoneyConverterController : Controller
+    
+    [ApiController]
+    [Route("[controller]")]
+    public class MoneyConverterController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly IMoneyConverterService _moneyConverterService;
+        public MoneyConverterController(ILogger<MoneyConverterController> logger,IMoneyConverterService moneyConverterService)
         {
-            return View();
+            _moneyConverterService = moneyConverterService;
         }
+
     }
 }

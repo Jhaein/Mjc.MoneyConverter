@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{CAC975AD-DAC1-4863-90F8-B7348BF6EC6F}|mjc.moneyconverter.client\\mjc.moneyconverter.client.esproj|solutionrelative:mjc.moneyconverter.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CF47C18E-0EE7-42BB-9C1E-69D7CD3BCA95}|Mjc.MoneyConverter.Server\\Mjc.MoneyConverter.Server.csproj|c:\\users\\jane\\source\\repos\\_allstrata_\\mjc.moneyconverter\\mjc.moneyconverter.server\\controllers\\moneyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF47C18E-0EE7-42BB-9C1E-69D7CD3BCA95}|Mjc.MoneyConverter.Server\\Mjc.MoneyConverter.Server.csproj|solutionrelative:mjc.moneyconverter.server\\controllers\\moneyconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|c:\\users\\jane\\source\\repos\\_allstrata_\\mjc.moneyconverter\\mjc.moneyconverter.service\\imoneyconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|solutionrelative:mjc.moneyconverter.service\\imoneyconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|c:\\users\\jane\\source\\repos\\_allstrata_\\mjc.moneyconverter\\mjc.moneyconverter.service\\moneyconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|solutionrelative:mjc.moneyconverter.service\\moneyconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|c:\\users\\jane\\source\\repos\\_allstrata_\\mjc.moneyconverter\\mjc.moneyconverter.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A12470A1-9C0C-4C21-9F12-61A1C250F2AC}|Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj|solutionrelative:mjc.moneyconverter.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAC975AD-DAC1-4863-90F8-B7348BF6EC6F}|mjc.moneyconverter.client\\mjc.moneyconverter.client.esproj|c:\\users\\jane\\source\\repos\\_allstrata_\\mjc.moneyconverter\\mjc.moneyconverter.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CAC975AD-DAC1-4863-90F8-B7348BF6EC6F}|mjc.moneyconverter.client\\mjc.moneyconverter.client.esproj|solutionrelative:mjc.moneyconverter.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -18,8 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoneyConverterService.cs",
+              "DocumentMoniker": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\MoneyConverterService.cs",
+              "RelativeDocumentMoniker": "Mjc.MoneyConverter.Service\\MoneyConverterService.cs",
+              "ToolTip": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\MoneyConverterService.cs",
+              "RelativeToolTip": "Mjc.MoneyConverter.Service\\MoneyConverterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:58:56.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMoneyConverterService.cs",
+              "DocumentMoniker": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\IMoneyConverterService.cs",
+              "RelativeDocumentMoniker": "Mjc.MoneyConverter.Service\\IMoneyConverterService.cs",
+              "ToolTip": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\IMoneyConverterService.cs",
+              "RelativeToolTip": "Mjc.MoneyConverter.Service\\IMoneyConverterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:58:32.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "Mjc.MoneyConverter.Service\\Class1.cs",
+              "ToolTip": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\Class1.cs",
+              "RelativeToolTip": "Mjc.MoneyConverter.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:57:57.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoneyConverterController.cs",
+              "DocumentMoniker": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Server\\Controllers\\MoneyConverterController.cs",
+              "RelativeDocumentMoniker": "Mjc.MoneyConverter.Server\\Controllers\\MoneyConverterController.cs",
+              "ToolTip": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Server\\Controllers\\MoneyConverterController.cs",
+              "RelativeToolTip": "Mjc.MoneyConverter.Server\\Controllers\\MoneyConverterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:46:34.735Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +96,14 @@
               "RelativeDocumentMoniker": "mjc.moneyconverter.client\\src\\app\\app.component.html",
               "ToolTip": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\mjc.moneyconverter.client\\src\\app\\app.component.html",
               "RelativeToolTip": "mjc.moneyconverter.client\\src\\app\\app.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-08-22T02:23:46.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\mjc.moneyconverter.client\\package.json",
               "RelativeDocumentMoniker": "mjc.moneyconverter.client\\package.json",
