@@ -3,10 +3,7 @@
 ################################################################################
 
 /.vs
-/Mjc.MoneyConverter.Service/bin
-/Mjc.MoneyConverter.Service/obj
-/Mjc.MoneyConverter.Service.Shared/bin
-/Mjc.MoneyConverter.Service.Shared/obj
+
 /mjc.amountconverter.client/obj
 /Mjc.MoneyConverter.Server/bin
 /.vs/Mjc.MoneyConverter/DesignTimeBuild/.dtbcache.v2
