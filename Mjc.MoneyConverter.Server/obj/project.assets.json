@@ -476,8 +476,8 @@
     },
     "Mjc.MoneyConverter.Models/1.0.0": {
       "type": "project",
-      "path": "../Mjc.MoneyController.Models/Mjc.MoneyConverter.Models.csproj",
-      "msbuildProject": "../Mjc.MoneyController.Models/Mjc.MoneyConverter.Models.csproj"
+      "path": "../Mjc.MoneyConverter.Models/Mjc.MoneyConverter.Models.csproj",
+      "msbuildProject": "../Mjc.MoneyConverter.Models/Mjc.MoneyConverter.Models.csproj"
     },
     "Mjc.MoneyConverter.Service/1.0.0": {
       "type": "project",

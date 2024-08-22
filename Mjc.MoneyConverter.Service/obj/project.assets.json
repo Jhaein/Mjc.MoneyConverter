@@ -17,8 +17,8 @@
   "libraries": {
     "Mjc.MoneyConverter.Models/1.0.0": {
       "type": "project",
-      "path": "../Mjc.MoneyController.Models/Mjc.MoneyConverter.Models.csproj",
-      "msbuildProject": "../Mjc.MoneyController.Models/Mjc.MoneyConverter.Models.csproj"
+      "path": "../Mjc.MoneyConverter.Models/Mjc.MoneyConverter.Models.csproj",
+      "msbuildProject": "../Mjc.MoneyConverter.Models/Mjc.MoneyConverter.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj": {
-              "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj"
+            "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj": {
+              "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj"
             }
           }
         }

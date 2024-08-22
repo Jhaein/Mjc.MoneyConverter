@@ -1,5 +1,4 @@
-﻿
-using Mjc.MoneyController.Models;
+﻿using Mjc.MoneyConverter.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +9,6 @@ namespace Mjc.MoneyConverter.Service
 {
     public interface IMoneyConverterService
     {
-        Task<MoneyConverterModel> GetMoneyToWords(decimal amount, CancellationToken cancellationToken);
+        Task<MoneyConverterModel> GetAmountToWords(decimal amount, CancellationToken cancellationToken);
     }
 }

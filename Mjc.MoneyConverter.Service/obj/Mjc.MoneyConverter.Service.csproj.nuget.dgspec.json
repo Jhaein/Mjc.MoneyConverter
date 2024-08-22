@@ -4,14 +4,14 @@
     "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Service\\Mjc.MoneyConverter.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj": {
+    "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj",
         "projectName": "Mjc.MoneyConverter.Models",
-        "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj",
+        "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj",
         "packagesPath": "C:\\Users\\Jane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\obj\\",
+        "outputPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj": {
-                "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyController.Models\\Mjc.MoneyConverter.Models.csproj"
+              "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj": {
+                "projectPath": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Models\\Mjc.MoneyConverter.Models.csproj"
               }
             }
           }

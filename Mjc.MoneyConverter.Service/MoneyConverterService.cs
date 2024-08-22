@@ -1,15 +1,13 @@
-﻿
-using Mjc.MoneyController.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Reflection.Metadata;
+﻿using Mjc.MoneyConverter.Models;
 
 namespace Mjc.MoneyConverter.Service
 {
     public class MoneyConverterService : IMoneyConverterService
     {
-        public async Task<MoneyConverterModel> GetMoneyToWords(decimal amount, CancellationToken cancellationToken)
+
+        public async Task<MoneyConverterModel> GetAmountToWords(decimal amount, CancellationToken cancellationToken)
         {
-            var convertedAmount = await ConvertMoneyToWords(amount, cancellationToken);
+            var convertedAmount = await ConvertAmountToWords(amount, cancellationToken);
             return new MoneyConverterModel()
             {
                 Money = amount,
@@ -17,13 +15,14 @@ namespace Mjc.MoneyConverter.Service
             };
         }
 
-        private async Task<string> ConvertMoneyToWords(decimal money, CancellationToken cancellationToken)
+
+        private async Task<string> ConvertAmountToWords(decimal amount, CancellationToken cancellationToken)
         {
-            if (money < 0 || money > 999999999.99m)
+            if (amount < 0 || amount > 999999999.99m)
                 throw new ArgumentOutOfRangeException("Amount must be between 0 and 999,999,999.99");
 
-            int dollars = (int)money;
-            int cents = (int)((money - dollars) * 100);
+            int dollars = (int)amount;
+            int cents = (int)((amount - dollars) * 100);
 
 
             var tasks = new[] { ConvertToWords(dollars, cancellationToken), ConvertToWords(cents, cancellationToken) };
@@ -38,6 +37,7 @@ namespace Mjc.MoneyConverter.Service
             return result;
         }
 
+
         private async Task<string> ConvertToWords(int number, CancellationToken cancellationToken)
         {
             return number switch
@@ -50,7 +50,8 @@ namespace Mjc.MoneyConverter.Service
                 < 1000000 => $"{await ConvertToWords(number / 1000, cancellationToken)} Thousand {await ConvertToWords(number % 1000, cancellationToken)}".Trim(),
                 _ => $"{await ConvertToWords(number / 1000000, cancellationToken)} Million {await ConvertToWords(number % 1000000, cancellationToken)}".Trim()
             };
-
         }
+
+
     }
 }
