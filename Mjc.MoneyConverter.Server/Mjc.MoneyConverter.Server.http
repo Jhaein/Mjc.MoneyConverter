@@ -1,0 +1,6 @@
+@Mjc.MoneyConverter.Server_HostAddress = http://localhost:5198
+
+GET {{Mjc.MoneyConverter.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

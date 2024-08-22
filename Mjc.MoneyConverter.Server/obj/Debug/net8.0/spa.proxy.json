@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Jane\\source\\repos\\_AllStrata_\\Mjc.MoneyConverter\\Mjc.MoneyConverter.Server\\..\\mjc.moneyconverter.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
