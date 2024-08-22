@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mjc.MoneyController.Models\Mjc.MoneyController.Models.csproj" />
+  </ItemGroup>
+
 </Project>

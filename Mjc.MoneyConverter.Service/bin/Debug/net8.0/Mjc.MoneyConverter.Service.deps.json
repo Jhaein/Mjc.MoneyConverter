@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mjc.MoneyConverter.Service/1.0.0": {
+        "dependencies": {
+          "Mjc.MoneyController.Models": "1.0.0"
+        },
+        "runtime": {
+          "Mjc.MoneyConverter.Service.dll": {}
+        }
+      },
+      "Mjc.MoneyController.Models/1.0.0": {
+        "runtime": {
+          "Mjc.MoneyController.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mjc.MoneyConverter.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mjc.MoneyController.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
