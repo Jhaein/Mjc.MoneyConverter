@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mjc.MoneyController.Models;
 using Mjc.MoneyConverter.Service;
 
 namespace Mjc.MoneyConverter.Server.Controllers
@@ -14,5 +15,12 @@ namespace Mjc.MoneyConverter.Server.Controllers
             _moneyConverterService = moneyConverterService;
         }
 
+
+        [HttpGet]
+        [Route("api/ConvertMoneyToWords/{money}")]
+        public async Task<ActionResult<MoneyConverterModel>> ConvertToWords(decimal money, CancellationToken cancellationToken)
+        {
+            return Ok(await _moneyConverterService.GetMoneyToWords(money, cancellationToken));
+        }
     }
 }
