@@ -1,1 +1,9 @@
-<p>money-input works!</p>
+
+<div class="container my-container">
+  <h1>Mary Jane Carlos</h1>
+  <form class="search-wrapper cf" [formGroup]="moneyForm" (ngSubmit)="submitForm();">
+    <input type="number" class="form-control" id="money" formControlName="money" placeholder="Enter Amount" required>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
