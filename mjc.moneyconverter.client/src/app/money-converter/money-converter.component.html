@@ -2,11 +2,11 @@
 <div class="my-container" *ngIf="moneyInWords$ | async as moneyInWords">
   <div class="card">
     <div class="card-header">
-      <h5 class="card-title">Amount in words:</h5>
+      <h2 class="card-title">Amount in words:</h2>
     </div>
     <br />
     <div class="card-body">
-      <h5 class="white-text" style="font-weight:bold; color:blue">{{ moneyInWords.words }}</h5>
+      <h3 class="white-text" style="font-weight:bold; color:blue; font-family:Tahoma">{{ moneyInWords.words }}</h3>
     </div>
   </div>
 </div>

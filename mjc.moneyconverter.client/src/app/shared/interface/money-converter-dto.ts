@@ -1,4 +1,4 @@
 export interface MoneyConverterResponseMod {
-    money: number;
-    words: string;
+  money: number;
+  words: string;
 }

@@ -8,7 +8,7 @@ import { MoneyConverterResponseMod } from '../interface/money-converter-dto';
 })
 export class MoneyconverterServiceService {
 
-  private apiUrl = 'http://localhost:5120/MoneyConverter/api/ConvertMoneyToWords';
+  private apiUrl = 'http://localhost:5198/MoneyConverter/api/ConvertMoneyToWords';
 
   constructor(private httpClient: HttpClient) { }
 
