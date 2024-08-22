@@ -21,5 +21,9 @@
 <!-- Created a new component by executing this command to the terminal--- 'ng generate component money-converter' =====> this will display the converter word from the entered numeric value -->
 <!-- Added app-routing module by executing this command ==> ng generate module app-routing --flat --module=app -->
 <!-- Added/imported directives and references to the app.module (ReactiveFormsModule, AppRoutingModule, MoneyConverterComponent, MoneyInputComponent)-->
-<!-- Added css styles in money-input and layout form input with submit button, added ng functions-->
+<!-- Added css styles in money-input and layout form input with submit button, added ng functions in the money-input component-->
+<!-- Added shaared angular services by executing command ==> ng generate service moneyconverter-service-->
+<!-- Added shared angular interface by executing command ==> ng generate interface money-converter-dto-->
+<!-- Added/imported directives and references to the moneyconverter-service.service, declared api url inside file and added class can contain methods to perform various tasks, such as converting an amount to words.-->
+<!-- Set money-converter.ts (Injected Angular’s dependency  to get route parameters and the conversion service, subscribes to route parameters,  Manages asynchronous operations with RxJS observables to ensure data is handled -->
 <router-outlet></router-outlet>

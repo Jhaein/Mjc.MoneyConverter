@@ -1,1 +1,15 @@
-<p>money-converter works!</p>
+
+<div class="my-container" *ngIf="moneyInWords$ | async as moneyInWords">
+  <div class="card">
+    <div class="card-header">
+      <h5 class="card-title">Amount in words:</h5>
+    </div>
+    <br />
+    <div class="card-body">
+      <h5 class="white-text" style="font-weight:bold; color:blue">{{ moneyInWords.words }}</h5>
+    </div>
+  </div>
+</div>
+
+
+
